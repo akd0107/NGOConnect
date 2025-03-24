@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NGO Directory - NGOConnect</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto px-4 py-4 max-w-6xl">
+        <!-- Header -->
+        <header class="flex justify-between items-center py-4">
+            <div class="flex items-center">
+                <img src="images/logo.png" alt="NGOConnect Logo" class="mr-2 w-8 h-8">
+                <span class="text-xl font-semibold text-red-600">NGOConnect</span>
+            </div>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="index.html" class="text-gray-800 hover:text-red-600">Home</a></li>
+                    <li><a href="directory.html" class="text-gray-800 hover:text-red-600 font-semibold">NGO Directory</a></li>
+                    <li><a href="fundraising.html" class="text-gray-800 hover:text-red-600">Fundraising</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Directory Content -->
+        <main class="my-8">
+            <!-- Search and Filter -->
+            <section class="mb-8">
+                <div class="flex flex-col md:flex-row justify-between items-center mb-4">
+                    <h1 class="text-2xl font-semibold mb-4 md:mb-0">NGO Directory</h1>
+                    <div class="w-full md:w-1/2">
+                        <input type="text" placeholder="Search NGOs..." class="w-full p-2 border rounded-lg">
+                    </div>
+                </div>
+                <div class="flex space-x-4 mt-4">
+                    <label class="inline-flex items-center">
+                        <input type="checkbox" class="form-checkbox">
+                        <span class="ml-2">Health</span>
+                    </label>
+                    <label class="inline-flex items-center">
+                        <input type="checkbox" class="form-checkbox">
+                        <span class="ml-2">Education</span>
+                    </label>
+                    <label class="inline-flex items-center">
+                        <input type="checkbox" class="form-checkbox">
+                        <span class="ml-2">Environment</span>
+                    </label>
+                </div>
+            </section>
+
+            <!-- NGO Listings -->
+            <section class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
+                <!-- Water for All Foundation -->
+                <div class="ngo-card">
+                    <div class="p-4">
+                        <div class="flex items-center mb-4">
+                            <img src="images/water-foundation-logo.jpg" alt="Water for All Foundation" class="rounded-full mr-3 w-16 h-16">
+                            <div>
+                                <h2 class="font-semibold text-lg">Water for All Foundation</h2>
+                                <p class="text-sm text-gray-600">Providing access to clean and safe drinking water to communities worldwide.</p>
+                            </div>
+                        </div>
+                        <a href="#" class="btn-primary mb-4">Donate Now</a>
+                        <div class="mb-2">
+                            <h3 class="font-medium mb-1">Upcoming Events:</h3>
+                            <p class="text-sm">Annual Charity Walk - Nov 15</p>
+                            <p class="text-sm">Water Awareness Webinar - Dec 10</p>
+                        </div>
+                        <a href="#" class="text-blue-600 text-sm hover:underline">Contact</a>
+                    </div>
+                </div>
+                
+                <!-- Learn & Grow Initiative -->
+                <div class="ngo-card">
+                    <div class="p-4">
+                        <div class="flex items-center mb-4">
+                            <img src="images/learn-grow-logo.jpg" alt="Learn & Grow Initiative" class="rounded-full mr-3 w-16 h-16">
+                            <div>
+                                <h2 class="font-semibold text-lg">Learn & Grow Initiative</h2>
+                                <p class="text-sm text-gray-600">Empowering underprivileged children through quality education.</p>
+                            </div>
+                        </div>
+                        <a href="#" class="btn-primary mb-4">Donate Now</a>
+                        <div class="mb-2">
+                            <h3 class="font-medium mb-1">Upcoming Events:</h3>
+                            <p class="text-sm">Back to School Drive - Nov 20</p>
+                            <p class="text-sm">Virtual Reading Marathon - Dec 5</p>
+                        </div>
+                        <a href="#" class="text-blue-600 text-sm hover:underline">Contact</a>
+                    </div>
+                </div>
+                
+                <!-- Green Earth Warriors -->
+                <div class="ngo-card">
+                    <div class="p-4">
+                        <div class="flex items-center mb-4">
+                            <img src="images/green-earth-logo.jpg" alt="Green Earth Warriors" class="rounded-full mr-3 w-16 h-16">
+                            <div>
+                                <h2 class="font-semibold text-lg">Green Earth Warriors</h2>
+                                <p class="text-sm text-gray-600">Advocating for environmental protection and sustainable practices.</p>
+                            </div>
+                        </div>
+                        <a href="#" class="btn-primary mb-4">Donate Now</a>
+                        <div class="mb-2">
+                            <h3 class="font-medium mb-1">Upcoming Events:</h3>
+                            <p class="text-sm">Tree Planting Day - Nov 25</p>
+                            <p class="text-sm">Eco-Friendly Workshop - Dec 15</p>
+                        </div>
+                        <a href="#" class="text-blue-600 text-sm hover:underline">Contact</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="py-4 text-center text-gray-600 text-sm">
+            <div class="flex items-center justify-center mb-2">
+                <img src="images/logo-small.png" alt="NGOConnect Logo" class="mr-1 w-5 h-5">
+                <span class="font-semibold">NGOConnect</span>
+            </div>
+            <p class="mb-2">
+                <a href="#" class="text-gray-600 hover:text-red-600 mx-2">Privacy Policy</a>
+                <a href="#" class="text-gray-600 hover:text-red-600 mx-2">Terms of Service</a>
+                <a href="#" class="text-gray-600 hover:text-red-600 mx-2">Contact Us</a>
+            </p>
+            <p>© 2023 NGOConnect. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
