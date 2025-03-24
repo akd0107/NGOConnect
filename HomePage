@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NGOConnect - Connecting You With Impactful NGOs</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto px-4 py-4 max-w-6xl">
+        <!-- Header -->
+        <header class="flex justify-between items-center py-4">
+            <div class="flex items-center">
+                <img src="images/logo.png" alt="NGOConnect Logo" class="mr-2 w-8 h-8">
+                <span class="text-xl font-semibold text-red-600">NGOConnect</span>
+            </div>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="index.html" class="text-gray-800 hover:text-red-600 font-semibold">Home</a></li>
+                    <li><a href="directory.html" class="text-gray-800 hover:text-red-600">NGO Directory</a></li>
+                    <li><a href="fundraising.html" class="text-gray-800 hover:text-red-600">Fundraising</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Homepage Content -->
+        <main class="my-8">
+            <!-- Welcome Banner -->
+            <section class="banner mb-10">
+                <h1 class="text-2xl font-semibold text-center mb-2">Welcome to NGOConnect</h1>
+                <p class="text-center mb-4">Connecting you with impactful NGOs, fundraising events, and opportunities to make a difference.</p>
+                <div class="text-center">
+                    <a href="directory.html" class="btn-primary">Get Started</a>
+                </div>
+            </section>
+
+            <!-- Three Column Features -->
+            <section class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
+                <div class="bg-white p-4 rounded-lg shadow">
+                    <img src="images/explore-ngos.jpg" alt="Explore NGOs" class="w-full h-40 object-cover rounded-lg mb-4">
+                    <h2 class="text-lg font-semibold mb-2">Explore NGOs</h2>
+                    <p class="text-gray-600 mb-4">Discover organizations working towards various causes worldwide.</p>
+                </div>
+                
+                <div class="bg-white p-4 rounded-lg shadow">
+                    <img src="images/fundraising-events.jpg" alt="Fundraising Events" class="w-full h-40 object-cover rounded-lg mb-4">
+                    <h2 class="text-lg font-semibold mb-2">Fundraising Events</h2>
+                    <p class="text-gray-600 mb-4">Join events that raise funds for meaningful initiatives.</p>
+                </div>
+                
+                <div class="bg-white p-4 rounded-lg shadow">
+                    <img src="images/donor-opportunities.jpg" alt="Donor Opportunities" class="w-full h-40 object-cover rounded-lg mb-4">
+                    <h2 class="text-lg font-semibold mb-2">Donor Opportunities</h2>
+                    <p class="text-gray-600 mb-4">Find ways to contribute to causes you care about.</p>
+                </div>
+            </section>
+
+            <!-- Quick Links and Contact -->
+            <section class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
+                <div class="footer-section">
+                    <h3 class="font-semibold mb-2">Quick Links</h3>
+                    <ul class="space-y-1">
+                        <li><a href="#" class="text-gray-700 hover:text-red-600">About Us</a></li>
+                        <li><a href="#" class="text-gray-700 hover:text-red-600">Our Team</a></li>
+                        <li><a href="#" class="text-gray-700 hover:text-red-600">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 class="font-semibold mb-2">Contact Information</h3>
+                    <p class="text-gray-700">Email: support@ngoconnect.org</p>
+                    <p class="text-gray-700">Phone: +1 (234) 567-890</p>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="py-4 text-center text-gray-600 text-sm">
+            <div class="flex items-center justify-center mb-2">
+                <img src="images/logo-small.png" alt="NGOConnect Logo" class="mr-1 w-5 h-5">
+                <span class="font-semibold">NGOConnect</span>
+            </div>
+            <p>© 2023 NGOConnect. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+Last edited 11 minutes ago
